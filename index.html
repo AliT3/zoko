@@ -3,42 +3,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <link href="tailwind.css" rel="stylesheet">
-    <style>
-      body {
-          background: linear-gradient(270deg, #edcf00, #ed9000, #ed00b4, #00bbed);
-          background-size: 800% 800%;
-
-          -webkit-animation: AnimationName 30s ease infinite;
-          -moz-animation: AnimationName 30s ease infinite;
-          animation: AnimationName 30s ease infinite;
-      }
-
-      @-webkit-keyframes AnimationName {
-          0%{background-position:0% 50%}
-          50%{background-position:100% 50%}
-          100%{background-position:0% 50%}
-      }
-      @-moz-keyframes AnimationName {
-          0%{background-position:0% 50%}
-          50%{background-position:100% 50%}
-          100%{background-position:0% 50%}
-      }
-      @keyframes AnimationName {
-          0%{background-position:0% 50%}
-          50%{background-position:100% 50%}
-          100%{background-position:0% 50%}
-      }
-    </style>
   </head>
 
-  <body>
+  <body class="bg-white">
 
-    <div class="flex-row mt-8 mb-16 mx-16">
-      <h2 class="font-bold">zoko</h2>
-    </div>
+    <div class="flex flex-row">
+      <div class="flex flex-col mx-20">
 
-    <div class="mx-16 flex flex-row">
-      <div class="flex flex-col">
+        <div class="flex-row mt-8 mb-16">
+          <h2 class="font-bold text-2xl">zoko</h2>
+        </div>
 
         <div class="font-bold">
           <h1 class="text-8xl">Stop paying<br>card fees.</h1>
@@ -53,13 +27,13 @@
             No hidden fees.
           </p>
 
-          <p class="mb-2">
+          <p class="mt-16 mb-2">
             Interested?
           </p>
         </div>
 
         <div id="mc_embed_signup">
-          <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="flex flex-row" target="_blank" novalidate>
+          <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="flex flex-row shadow-lg border rounded border-blue-400" target="_blank" novalidate>
             <input type="email" value="" name="EMAIL" class="appearance-none border rounded-l w-full py-2 px-3 text-grey-darker" id="mce-EMAIL" placeholder="email address" required>
     
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -89,7 +63,9 @@
 
       </div>
 
-      
+      <div class="flex-auto min-h-screen" style="background-size: cover; background-image: url('https://images.unsplash.com/photo-1597155135675-d4cef690184a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2608&q=80');">
+
+      </div>
     </div>
   </body>
 </html>
