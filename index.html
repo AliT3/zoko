@@ -3,6 +3,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <link href="tailwind.css" rel="stylesheet">
+    <style>
+      body {
+          background: linear-gradient(270deg, #edcf00, #ed9000, #ed00b4, #00bbed);
+          background-size: 800% 800%;
+
+          -webkit-animation: AnimationName 30s ease infinite;
+          -moz-animation: AnimationName 30s ease infinite;
+          animation: AnimationName 30s ease infinite;
+      }
+
+      @-webkit-keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
+      }
+      @-moz-keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
+      }
+      @keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
+      }
+    </style>
   </head>
 
   <body>
