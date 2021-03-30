@@ -9,13 +9,17 @@
       .thick-underline {
         text-decoration-line: underline;
         text-decoration-style: solid;
-        text-decoration-color: #FBBF24;
+        text-decoration-color: #EBFF00;
         text-decoration-thickness: 4px;
       }
       @media only screen and (min-width: 768px) {
         .thick-underline {
           text-decoration-thickness: 8px;
         }
+      }
+
+      .button {
+        background-color: #EBFF00;
       }
     </style>
   </head>
@@ -26,11 +30,11 @@
       <div class="flex flex-col mx-6 lg:mx-20">
 
         <div class="flex-row mt-8 mb-16">
-          <h2 class="font-bold text-lg lg:text-2xl">zoko</h2>
+          <h2 class="font-bold text-lg lg:text-2xl">Zoko</h2>
         </div>
 
-        <div class="font-bold">
-          <h1 class="text-4xl lg:text-8xl"><span class="thick-underline">Stop</span> paying<br>card <span class="thick-underline">fees</span>.</h1>
+        <div>
+          <h1 class="text-4xl lg:text-8xl font-bold"><span class="thick-underline">Stop</span> Paying<br>Card <span class="thick-underline">Fees</span>.</h1>
 
           <p class="my-8 lg:text-lg">
             Zoko lets you take contactless payments for free.
@@ -48,15 +52,15 @@
         </div>
 
         <div id="mc_embed_signup">
-          <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="flex flex-row shadow-lg border rounded border-yellow-400" target="_blank" novalidate>
-            <input type="email" value="" name="EMAIL" class="appearance-none border rounded-l w-full py-2 px-3 text-grey-darker" id="mce-EMAIL" placeholder="email address" required>
+          <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="flex flex-row shadow-lg rounded" target="_blank" novalidate>
+            <input type="email" value="" name="EMAIL" class="appearance-none border rounded-l w-full py-2 px-3 text-grey-darker bg-black" id="mce-EMAIL" placeholder="email address" required>
     
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text" name="b_4d08a2f8ebf774077f219270c_72ab9a8e23" tabindex="-1" value="">
             </div>
     
-            <button type="submit" name="subscribe" id="mc-embedded-subscribe" style="min-width: 120px;" class="focus:outline-none flex justify-center bg-yellow-400 cursor-pointer hover:bg-yellow-300 text-black font-bold py-2 px-10 rounded-r">
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" style="min-width: 120px;" class="focus:outline-none flex justify-center bg-white cursor-pointer hover:bg-yellow-300 text-black font-bold py-2 px-10 rounded-r">
               <div id="submit_text">Submit</div>
               <div id="submit_loading" class="hidden">
                 <svg class="animate-spin mt-1 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
